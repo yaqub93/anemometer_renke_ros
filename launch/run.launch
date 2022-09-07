@@ -1,5 +1,5 @@
 <launch> 
 	<node pkg="anemometer_renke" name="anemometer_renke" type="anemometer_renke.py" output="screen">
-		<arg name="port" value="ttyUSB0"/>
+		<param name="port" value="/dev/ttyUSB0"/>
 	</node>
 </launch>
